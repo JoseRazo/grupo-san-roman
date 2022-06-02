@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <app-root></app-root>
+    </div>
+  </div>
+  <!--Boton ir arriba -->
+  <a href="#" class="scroll-top" title="Ir arriba">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</body>
+<!-- Facebook Pixel Code -->
+<script>
+  !function (f, b, e, v, n, t, s) {
+    if (f.fbq) return; n = f.fbq = function () {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+    n.queue = []; t = b.createElement(e); t.async = !0;
+    t.src = v; s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2045829162413333');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" src="https://www.facebook.com/tr?id=2045829162413333&ev=PageView
+&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Boton ir arriba -->
+<script type="text/javascript">
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $('a.scroll-top').fadeIn('slow');
+
+    } else {
+      $('a.scroll-top').fadeOut('slow');
+    }
+  });
+
+  $('a.scroll-top').click(function (event) {
+    event.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, 600);
+  });
+</script>
+<!-- Fin Boton ir arriba -->
+
+<!-- Efecto Loading de carga de pagina -->
+<script type="text/javascript">
+  window.onload = function () {
+    var contenedor = document.getElementById('contenedor_carga');
+
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+  }
+</script>
+<!-- Fin Efecto Loading de carga de pagina -->
+</html>

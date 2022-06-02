@@ -1,0 +1,103 @@
+<div class="fixed-top" id="header-secondary-outer">
+    <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 ml-lg-0">
+
+            <!-- Social buttons -->
+            <div class="text-center text-md-left mt-1">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a class="btn-sm a-redes" href="https://www.facebook.com/cafesanroman/" target="_blank">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-sm a-redes" href="#">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-sm a-redes" href="https://www.youtube.com/channel/UCPS5DsxcWXC7qP8Y1gIhQvQ/videos" target="_blank">
+                            <i class="fa fa-youtube fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-sm a-redes" href="https://www.instagram.com/cafesanroman/?hl=es-la" target="_blank">
+                            <i class="fa fa-instagram fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <div class="col-lg-3 text-center">
+            <a class="btn btn-danger btn-lg btn-block btn-sm font-weight-bold reservaciones" routerLink="/cafe-san-roman/reservaciones" role="button">RESERVACIONES</a>
+        </div>
+        <div class="col-lg-6 text-center">
+            <a target="_blank" href="https://goo.gl/maps/B22wa1yYzQU2" class="direccion-header">Boulevard Manuel J. Clouthier 1002, Aztlan, 36720 Salamanca, Gto.</a>&nbsp;|&nbsp;
+            <a href="tel:01 464 641 3003" class="direccion-header">Tel. 01 464 641 3003 </a>
+        </div>
+       <!-- <div class="col-lg-2 text-center">
+            <a>
+                <i class="fa fa-cc-visa fa-2x"></i>&nbsp;
+                <i class="fa fa-cc-mastercard fa-2x"></i>
+            </a>
+        </div> -->
+    </div>
+</div>
+
+<div class="menu-sticky" id="header-principal">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/cafe-san-roman">
+            <img src="assets/img/principal/LOGO-CAFE-SAN-ROMAN.png" alt="San Román">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link nav-a" routerLink="/cafe-san-roman/conocenos" routerLinkActive="active">CONÓCENOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-a" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        ACERCA DE
+                    </a>
+                    <div class="dropdown-menu" id="dropdown-a-color" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" routerLinkActive="active">El Café</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" routerLinkActive="active">El Foro</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" routerLinkActive="active">La Galería</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-a" routerLink="/cafe-san-roman/menus">MENÚS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-a" routerLink="/cafe-san-roman/galeria">GALERÍA</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-a" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        CONTACTO
+                    </a>
+                    <div class="dropdown-menu" id="dropdown-a-color" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" routerLink="/cafe-san-roman/contacto" routerLinkActive="active">Horario y Dirección</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" routerLink="/cafe-san-roman/enviar-email" routerLinkActive="active">Envíanos un Email</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-a" routerLink="/cafe-san-roman/facturacion">FACTURACIÓN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--COMPONENTE PARA LA VENTANA MODAL DE RESERVACIONES-->
+<app-reservaciones></app-reservaciones>

@@ -1,0 +1,130 @@
+#bodygruposanroman {
+      background-image: url(../../assets/img/principal/fondo-principal-gruposanroman.JPG);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #fff;
+      padding: 4rem 0 4rem 0 !important;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+}
+  img  {
+      width: 100%;
+  }
+  .logo-gruposanroman {
+      width: 432px
+  }
+  .logo-romitto {
+    width: 432px
+}
+.logo-cafesanroman {
+    width: 332px
+}
+h4 {
+    letter-spacing: 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    h4 {
+        letter-spacing: 1rem;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .logo-cafesanroman {
+        width: 222px
+    }
+    .logo-romitto {
+        width: 332px
+    }
+    h4 {
+        letter-spacing: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .logo-gruposanroman {
+        width: 232px
+    }
+    .logo-cafesanroman {
+        width: 232px
+    }
+    .logo-romitto {
+        width: 232px
+    }
+    h4 {
+        letter-spacing: 1rem;
+        font-size: 1rem;
+    }
+    .mt-5 {
+        margin-top: 0rem !important;
+    }
+  }
+  @media screen and (max-width: 341px) {
+    .logo-gruposanroman {
+        width: 190px
+    }
+    .logo-cafesanroman {
+        width: 190px
+    }
+    .logo-romitto {
+        width: 190px
+    }
+  }
+   /* Efectos loading al cargar la pagina*/
+  #contenedor_carga {
+    background-color: rgba(250, 240, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 9999;
+  }
+  #carga {
+    border: 15px solid #ccc;
+    border-top-color: #dc3545;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+
+  }
+  @keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  /* Fin Efectos loading al cargar la pagina*/
+
+
+  /* footer */
+a {
+    color: red
+}
+.privacidad {
+    background-color: #0a0a0a;
+    padding: .5rem !important;
+}
+.privacidad a {
+    color: #fff
+}
+.privacidad a:hover {
+    color: #eb2632
+}
+
+
+  

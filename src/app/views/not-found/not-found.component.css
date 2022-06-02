@@ -1,0 +1,16 @@
+#bodycafesanroman {
+    background-image: url(../../../assets/img/galeria/la_terraza/img3-terraza.jpeg);
+    width: 100%;  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0 10rem 0;
+  }
+  .my-container {
+    background: rgba(0, 0, 0, .7);
+    padding: .5rem
+  }
+img {
+    width: 100%
+}

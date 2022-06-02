@@ -1,0 +1,16 @@
+  <meta name="description"
+    content="San Román es un espacio único, que fusiona el arte, la comida y el buen café para gente cosmopolita y hedonista con una visión diferente del entretenimiento y la cultura en Salamanca.">
+  <meta name="abstract"
+    content="San Román es un espacio único, que fusiona el arte, la comida y el buen café para gente cosmopolita y hedonista con una visión diferente del entretenimiento y la cultura en Salamanca.">
+  <meta name="keywords"
+    content="lugares para comer en salamanca, lugares para comer en salamanca gto, lugares para comer en gto, lugares para comer en guanajuato, donde comer en salamanca, donde desayunar en salamanca, restaurantes en salamanca, restaurante cafe en salamanca, restaurante cafe bar, musica en vivo en salamanca, grupo san roman, grupo san roman salamanca, grupo san roman salamanca gto">
+  <meta name="classification"
+    content="restaurantes en salamanca, restaurantes en salamanca Guanajuato, restaurantes de salamanca gto, restaurante cafe bar en salamanca, restaurante cafe bar en salamanca gto" />
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="url" content="http://gruposanroman.com.mx/" />
+  <link rel="canonical" href="http://gruposanroman.com.mx/" />
+  <meta property="og:title" content="Grupo San Román | Restaurante, Café, Arte" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://gruposanroman.com.mx/" />
+  <meta property="og:site_name" content="Grupo San Román | Restaurante, Café, Arte" />

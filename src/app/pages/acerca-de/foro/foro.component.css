@@ -1,0 +1,32 @@
+#bodycafesanroman {
+    background-image: url(../../../../assets/img/galeria/la_terraza/img3-terraza.jpeg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+     
+  }
+  .my-container {
+    background: rgba(0, 0, 0, .6);
+  }
+#elforo {
+    background-color: black;
+    padding-bottom: 2rem;
+    color: #fff
+}
+.bg-primary {
+    background-color: #eb2632 !important;
+    color: #fff
+}
+hr {
+    border-top: 2px solid rgba(0,0,0,.1);
+    border-color: #FFF;
+}
+@media screen and (max-width: 767px){
+    .display-4 {
+        font-size: 2rem;    
+    }
+    .p-5 {
+        padding: 1rem !important
+    }
+}

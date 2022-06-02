@@ -1,0 +1,17 @@
+.carousel-control-prev-icon {
+    background-image: url("../../../assets/img/iconos/flecha-izquierda.png");
+    width: 40px;
+    height: 40px;    
+}
+.carousel-control-next-icon {
+    background-image: url("../../../assets/img/iconos/flecha-derecha.png");
+    width: 40px;
+    height: 40px; 
+}
+
+.carousel-indicators li {
+    background-color: #dc3545;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+}

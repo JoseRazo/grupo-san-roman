@@ -1,0 +1,103 @@
+#header-secondary-outer {
+    background-color: #3f3f3f !important;
+    color: #fff;
+    
+}
+img {
+    width: 255px;
+    margin: 20px 0 20px 0
+ }
+ul {
+    margin-bottom: 0;
+    margin-left: 1rem
+}
+#header-secondary-outer a {
+    color: #fff;  
+}
+.a-redes:hover {
+    color: #dc3545 !important;
+   }
+.direccion-header {
+    font-size: 11px
+}
+.reservaciones {
+    height: 100%;
+}
+#header-principal {
+    background-color: rgba(10,10,10,100);
+    padding-top: 2.5rem;
+}
+#header-principal a {
+    color: #dc3545
+}
+#header-principal a:hover {
+    color: #fff
+}
+.nav-a{
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase; 
+    font-size: 18px;
+    font-weight: 700
+}
+.navbar-dark .navbar-toggler {
+    border-color: #dc3545;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #dc3545;
+    
+}
+#dropdown-a-color a {
+color: #fff
+}
+#dropdown-a-color a:hover {
+    background-color: rgba(235,38,50,100) !important
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: red;
+}
+/*Hacer que el munu se despliegue al pasar el mouse*/
+li.dropdown:hover > .dropdown-menu {
+    display: block; 
+    margin: auto
+}
+@media screen and (max-width: 1143px) {
+    .reservaciones {
+        padding-top: .8rem
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .reservaciones {
+        padding-top: 0
+    }
+    #header-principal {
+        background-color: rgba(10,10,10,100);
+        margin-top: auto;
+        padding-top: 0;
+    }
+  }
+
+@media screen and (max-width: 991px) {
+    .menu-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+    
+    }
+    .fixed-top {
+        position: unset;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+  }
+  @media screen and (max-width: 388px) {
+    img {
+        width: 146px;
+        height: 55px;
+    }
+  }
+
+  
+
